@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewHolder.Signup"
+    android:background="@drawable/background2">
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerInParent="true">
+
+      <TextView
+          android:id="@+id/appname"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_gravity="center"
+          android:layout_marginTop="80dp"
+          android:gravity="center"
+          android:text="Flight Mate"
+          android:textColor="@color/SpanishGray"
+          android:textSize="40dp"
+          android:textStyle="bold"
+          android:typeface="serif" />
+
+      <RelativeLayout
+          android:id="@+id/rellay"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/appname">
+
+          <TextView
+          android:id="@+id/txtSignUp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Signup"
+          android:textSize="30sp"
+          android:textColor="@color/SpanishGray"
+          android:layout_marginTop="60dp"
+          android:typeface="serif"/>
+
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_below="@id/txtSignUp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phonenumber"
+                        android:textColor="@color/SpanishGray"
+                        android:textSize="15sp"
+                        android:typeface="serif"
+                        android:textAllCaps="true"/>
+
+                    <EditText
+                        android:id="@+id/edtPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingTop="5dp"
+                        android:background="@drawable/grap_bg"
+                        android:hint="@string/phone_number"
+                        android:textColorHint="@color/SpanishGray"
+                        android:paddingLeft="10dp"
+                        android:inputType="phone"
+                        android:importantForAutofill="no"/>
+
+
+
+                </LinearLayout>
+
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="USERNAME"
+                  android:textColor="@color/SpanishGray"
+                  android:textSize="15sp"
+                  android:typeface="serif"
+                  android:textAllCaps="true"/>
+
+              <EditText
+                  android:id="@+id/edtName"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:layout_marginTop="5dp"
+                  android:paddingTop="5dp"
+                  android:background="@drawable/grap_bg"
+                  android:hint="@string/username"
+                  android:textColorHint="@color/SpanishGray"
+                  android:inputType="textPersonName"
+                  android:paddingLeft="10dp"
+                  android:importantForAutofill="no"/>
+
+
+
+          </LinearLayout>
+
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Password"
+                  android:textColor="@color/SpanishGray"
+                  android:textSize="15sp"
+                  android:typeface="serif"
+                  android:textAllCaps="true"/>
+
+              <EditText
+                  android:id="@+id/edtPassword"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:background="@drawable/grap_bg"
+                  android:hint="@string/password"
+                  android:textColorHint="@color/SpanishGray"
+                  android:inputType="textPassword"
+                  android:paddingLeft="10dp"
+                  android:importantForAutofill="no"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Secure Code"
+                    android:textColor="@color/SpanishGray"
+                    android:textSize="15sp"
+                    android:typeface="serif"
+                    android:textAllCaps="true"/>
+
+                <EditText
+                    android:id="@+id/edtSecureCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/grap_bg"
+                    android:hint="SecureCode"
+                    android:textColorHint="@color/SpanishGray"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:importantForAutofill="no"/>
+          </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="75dp"
+                    android:background="@drawable/grap_bg"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="70dp"
+                    android:text="Sign Up Now"
+                    android:textAllCaps="false"
+                    android:textColor="@color/SpanishGray"
+                    android:typeface="serif" />
+
+       </LinearLayout>
+
+
+      </RelativeLayout>
+
+
+  </RelativeLayout>
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="LIGHTCORNFLOWERBLUE">#90C2E7</color>
+    <color name="LIGHTAPRICOT">#FCD7AD</color>
+
+    <color name="btnSignIn">#39b</color>
+    <color name="btnSignUp">#A9f</color>
+
+    <color name="overlayBackground">#C9F9FF</color>
+    <color name="overlayActionBar">#0A122A</color>
+    <color name="SpanishGray">#EDEDED</color>
+    <color name="white">#FFFF</color>
+
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "47148243562",
+    "firebase_url": "https://flightapp-af7b2.firebaseio.com",
+    "project_id": "flightapp-af7b2",
+    "storage_bucket": "flightapp-af7b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47148243562:android:fa0a91b50268d852",
+        "android_client_info": {
+          "package_name": "com.example.flightapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47148243562-19pk4d1c3pgjf9dsq0b9jfl1mfujh2r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flightapp",
+            "certificate_hash": "cdfc5a9451615a4d490b369b883b8cd96424ee7b"
+          }
+        },
+        {
+          "client_id": "47148243562-t4anrren8aho9js0agn59nhskinau8ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnY5Dnc1HNgjD9Qxi1Ad91ZFknwkQBqeg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47148243562-t4anrren8aho9js0agn59nhskinau8ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

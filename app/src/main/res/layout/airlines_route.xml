@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardMaxElevation="4dp"
+    android:layout_marginBottom="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/airlines_image"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/darker_gray"
+            >
+
+            <TextView
+                android:id="@+id/airlines_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/airlines_image"
+                android:layout_alignBottom="@+id/airlines_image"
+                android:layout_weight="9"
+                android:gravity="center"
+                android:text="Name of Airlines"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:id="@+id/fav"
+                />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

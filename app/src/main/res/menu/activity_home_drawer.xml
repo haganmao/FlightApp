@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            android:iconTint="@android:color/black" />
+
+
+        <item
+            android:id="@+id/nav_book_cart"
+            android:icon="@drawable/ic_my_bookings_24dp"
+            android:title="My bookings"
+            android:iconTint="@android:color/black" />
+
+        <item
+            android:id="@+id/nav_book_history"
+            android:icon="@drawable/ic_book_flights_24dp"
+            android:title="Booking History"
+            android:iconTint="@android:color/black" />
+
+        <item
+            android:id="@+id/nav_change_pwd"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="PassWord setting"
+            android:iconTint="@android:color/black" />
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign out"
+            android:iconTint="@android:color/black" />
+
+
+    </group>
+
+</menu>

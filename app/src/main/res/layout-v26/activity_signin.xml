@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewHolder.Signup"
+    android:background="@drawable/background2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="Flight Mate"
+            android:textColor="@color/SpanishGray"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <RelativeLayout
+            android:id="@+id/rellay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appname">
+
+            <TextView
+                android:id="@+id/txtSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="30sp"
+                android:textColor="@color/SpanishGray"
+                android:layout_marginTop="60dp"
+                android:typeface="serif"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/txtSignUp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phonenumber"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/SpanishGray"
+                        android:textSize="15sp"
+                        android:typeface="serif"
+                        android:textAllCaps="true"/>
+
+                    <EditText
+                        android:id="@+id/edtPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/grap_bg"
+                        android:hint="@string/phone_number"
+                        android:text="0224004614"
+                        android:textColorHint="@color/SpanishGray"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:inputType="phone"
+                        android:importantForAutofill="no"/>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PassWord"
+                        android:textColor="@color/SpanishGray"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:typeface="serif"
+                        android:textAllCaps="true"/>
+
+                    <EditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/grap_bg"
+                        android:hint="@string/password"
+                        android:text="123456"
+                        android:textColorHint="@color/SpanishGray"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:layout_marginTop="5dp"
+                        android:importantForAutofill="no"/>
+
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/ckbRemember"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        style="@style/Material.Drawable.CheckBox"
+                        android:text="Remember me"
+                        android:gravity="center_vertical"
+                        android:textColor="@android:color/white"
+                        >
+
+                    </CheckBox>
+
+
+                    <TextView
+                        android:id="@+id/txtForgotPW"
+                        android:width="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/forgot_pwd" />
+
+
+                </LinearLayout>
+
+                </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:text="Log In Now"
+                android:textAllCaps="false"
+                android:typeface="serif"
+                android:textColor="@color/SpanishGray"
+                android:background="@drawable/grap_bg"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:layout_centerHorizontal="true" />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
