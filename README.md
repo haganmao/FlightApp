@@ -1,11 +1,21 @@
 # FlightMate
-## This is a simple android flight app, I give the name of app is Flight Mate, the aim is to help users buy the tickets through android mobile devices. The original reason of creating this flight booking app is mainly because I often find that I could not get one ticket at the right price when I want to buy a flight ticket to go somewhere. If I go to a certain airline webpage or app to book a ticket at certain time, such as holidays, the airline companies may raise the price of the ticket, which will cause some users to buy the ticket with extra price. The purpose of my app is to provide users with the ability to compare the prices of the same route of each airline and give them a wide range of choice to buy a cheaper ticket.
+This is a simple android flight app, I give the name of app is Flight Mate, the aim is to help users buy the tickets through android mobile devices. The original reason of creating this flight booking app is mainly because I often find that I could not get one ticket at the right price when I want to buy a flight ticket to go somewhere. If I go to a certain airline webpage or app to book a ticket at certain time, such as holidays, the airline companies may raise the price of the ticket, which will cause some users to buy the ticket with extra price. The purpose of my app is to provide users with the ability to compare the prices of the same route of each airline and give them a wide range of choice to buy a cheaper ticket.
 
 ![svg](https://github.com/haganmao/FlightApp/blob/master/app/src/image/Screenshot_1598504554.png)
+<br>
+<br>
 ![svg](https://github.com/haganmao/FlightApp/blob/master/app/src/image/Screenshot_1598504585.png)
+<br>
+<br>
 ![svg](https://github.com/haganmao/FlightApp/blob/master/app/src/image/Screenshot_1598504597.png)
+<br>
+<br>
 ![svg](https://github.com/haganmao/FlightApp/blob/master/app/src/image/Screenshot_1598504924.png)
+<br>
+<br>
 ![svg](https://github.com/haganmao/FlightApp/blob/master/app/src/image/Screenshot_1598504931.png)
+<br>
+<br>
 ![svg](https://github.com/haganmao/FlightApp/blob/master/app/src/image/Screenshot_1598504951.png)
 <br>
 <br>
@@ -73,7 +83,7 @@ Airline details.
 
 *	User able to update Payment status 
 
-
+<br>
 <br>
 
 # Requirements specification
@@ -86,7 +96,8 @@ Airline details.
 *	User only can book up to 10 tickets at one time.
 *	User sign up the account with secure code
 * User find password by providing secure code
-
+<br>
+<br>
 
 # Conceptual Framework
 ![svg](https://github.com/haganmao/FlightApp/blob/master/app/src/image/dbdemo.png)
